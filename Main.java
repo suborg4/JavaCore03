@@ -15,6 +15,13 @@ package javacorehw03;
 // г) ** Создать класс, содержащий массив или коллекцию сотрудников (как Worker так и Freelancer), и 
 // реализовать возможность вывода данных с использованием foreach (подсказка: вам потребуется поработать с интерфейсом Iterable).
 
+import java.util.Iterator;
+import javacorehw03.Employee;
+import javacorehw03.HourlyEmployee;
+import javacorehw03.FixedEmployee;
+import javacorehw03.Freelancer;
+import javacorehw03.EmployeeCollection;
+
 public class Main {
     public static void main(String[] args) {
         // Создание коллекции сотрудников
